@@ -1,0 +1,25 @@
+
+Common Patterns 
+1. Frequency Counter 
+    . This pattern uses objects or sets to collect values/frequencies of values 
+    . This can often avoid the need for nested loops or O(N**2) operations with arrays/strings 
+    . example annagrams, value inside another, similar values, comparing two inputs 
+
+2. Multiple Pointers
+    . Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.
+    . Very efficient for solving problems with minimal space complexity as well
+
+3. Sliding Window
+    . This pattern involves creating a window which can either be an array or number form one position to another.
+    . Depending on a certain condition, the window either incresases or closes (and ta new window is created)
+    . Very useful for keep ing track of a subset of data in an array/string etc.  
+
+4. Divide and Conquer   
+    . This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data.
+    . This pattern can tremendously decrease time complexity. 
+
+5. Dynamic Programming  
+
+6. Greedy Algorithms
+
+7. Backtracking 

@@ -1,0 +1,43 @@
+How to improve at solving problems.
+1. Devise a plan for solving problems
+2. Master common problem solving patterns
+
+Steps to Solving a problem 
+1. Understand the Problem.
+    . Can I restate the problem in my own words?
+    . What are the inputs that go into the problem?
+    . What are the outpus that should come from the solution to the problem?
+    . Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem?(You many not be able to anser this question until you set about solving the problem.  That's okay; it's still worth considerting the question at this early stage.)
+    . How should I label the important pieces of data that are a part of the problem?
+
+2. Explore Concrete Examples.
+    . Coming up with examples can help you understand the problem better.
+    . Examples also provide sanity checks that your eventual solution works how it should 
+    .USER STORIES!
+    .UNIT TESTS!
+    .Start with Simple Examples 
+    .Progress to More Complex Examples
+    .Explore Examples with Empty inputs
+    .Explore Examples with Invalid inputs 
+
+
+3. Break it Down.
+    .Explicitly write out the steps you need to take.
+    .This forces you to think about the code you'll write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details (e.g. lanuage syntax) as well.
+
+
+4. Solve/Simplify
+    . Find the core difficulty in what you're tyring to do
+    . Temporarily ignore that difficulty
+    . Write a simplified solution
+    . Then incorporate that difficulty back in 
+
+
+5. Look Back and Refactor
+    . Can you check the result?
+    . Can you derive the result differently?
+    . Can you understand it at a glance?
+    . Can you use the Result or method for some other problem?
+    . Can you imporve the preformance of your solution?
+    . Can you thik of other ways to refactor?
+    . How have other people solved this problem?

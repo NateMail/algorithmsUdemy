@@ -1,0 +1,37 @@
+
+In Big O constants don't matter
+
+O(2n) is simplified to O(n) - middle 
+
+O(500) is simplified to O(1) - fastest
+
+O(13n**2) is simplified to O(n**2) - slowest
+
+O(n + 10) is simplified to O(n)
+O(1000n + 50) is simplified to O(n)
+O(n**2 + 5n + 8) is simplified to O(n**2)
+
+BIG O SHORT-HAND
+1. Arithmetic operations are constants
+2. variable assignment is constant
+3. Accessing elements in an array (by index) or object (by key) is constant
+4. In a loop, the complexity is the length of the loop times the complexity of whatever happens inside the loop.
+
+
+SPACE COMPLESITY IN JS- Rules of thumb
+1. Most primitives(booleans, numbers, undefined, null) are constant space 
+2. Strings require O(n) space (where n i sthe string length)
+3. Reference types are generally O(n), where n is the length (for arrays) or number of keys (for objects)
+
+
+LOGARITHM 
+
+log/sub 2/(8) = 3 === 2**3 = 8
+
+The logarithm of a number roughly measures the number of times you can divide that number by 2 BEFORE YOU GET A VALUE THAT'S LESS THAN OR EQUAL TO ONE.
+
+Logarithmic time complexity is great O(log n)- this is fast 
+
+Certain searching algorithms have logarithmic time complexity.
+Efficient sorting algorithms involve logarithms.  
+Recursion sometimes involves logarithmic space complexity.
