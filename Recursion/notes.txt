@@ -6,3 +6,28 @@
 
 What is recursion?
 A process ( a function in our case) that calls itself
+
+    Base Case 
+The condition when the recursion ends
+
+
+Two essential parts of a recursive function!
+. Base Case 
+. Different Input 
+
+Helper Method Recursion 
+function outer(input) {
+    let outerScopedVariable = []
+
+    function helper(helperInput) {
+        // modify the outerScopedVariable
+        helper(helperInput--) - or whatever logic you need to do
+    }
+    helper(input)
+    return outerScopedVariable;
+}
+
+Pure Recursion Tips
+    . For arrays, use methods like slice, the spread operator, and concat that make copies of arrays so you do not mutate them.
+    . Remember that strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings.
+    . To make copies of objects use Object.assign, or the spread operator. 
