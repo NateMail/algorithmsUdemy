@@ -1,0 +1,28 @@
+ Can imporve time complexity from O(n**2) to O(n log n)
+ The more efficient algorithms are much less simple, and generally take longer to understand. 
+
+
+        Merge Sort 
+. It's a combination of two things - merging and sorting!
+. Exploits the fact that arrays of 0 or 1 element are are always sorted.
+. Works by dexomposing an array into smaller arrays of 0 or 1 elements, then building up a newly sorted array 
+
+        Merge Sort Broken Down 
+        starting unsorted array 
+    [8, 3, 5, 4, 7, 6, 1, 2]
+        unsorted array broken into two arrays 
+    [8, 3, 5, 4] [7, 6, 1, 2]
+        two unsorted arrays broken into four unsorted arrays 
+    [8, 3] [5, 4] [7, 6] [1, 2]
+        every element of the unsorted array in their own array 
+    [8] [3] [5] [4] [7] [6] [1] [2]
+        elements merged and sorted in pairs
+    [3, 8] [4, 5] [6, 7] [1, 2]
+        small sorted arrays merged and sorted into two sorted arrays 
+    [3, 4, 5, 8] [1, 2, 6, 7]
+        the pair of sorted arrays are merged into one sorted final array 
+    [1, 2, 3, 4, 5, 6, 7, 8]
+
+    1. Break up the array into halves until you have arrays that are empty or have one element.
+    2. Once you have smaller sorted arrays, merge those arrays with other sorted arrays until you are back at the full length of the array.
+    3. Once the array has been merged back together, return the merged (and sorted!) array 
