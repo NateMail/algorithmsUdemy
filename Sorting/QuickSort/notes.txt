@@ -1,0 +1,20 @@
+        Quick Sort 
+. Like merge sort, exploits the fact that arrays of 0 or 1 element are always sorted
+. Works by selecting one element (called the "pivot") and finding the index where the pivot should end up in the sorted array 
+. Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot. 
+
+        Quick Sort Break Down 
+    [5, 2, 1, 8, 4, 7, 6, 3]
+        select 5 and move everything smaller to the left 
+    3, 2, 1, 4, 5, 7, 6, 8
+        select 3 on the left side 
+    2, 1, 3, 4, 5, 7, 6, 8
+        select 2 on the left side 
+    1, 2, 3, 4, 5, 7, 6, 8
+        select right side 7
+    1, 2, 3, 4, 5, 6, 7, 8
+        final array 
+    [1, 2, 3, 4, 5, 6, 7, 8]
+
+    . The runtime of quick sort depends in part on how one selects the pivot.
+    . Ideally, the pivot should be chosen so that it's roughly the median value in the data set you're sorting 
