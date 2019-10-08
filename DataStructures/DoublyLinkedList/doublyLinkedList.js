@@ -103,6 +103,33 @@ class DoublyLinkedList {
     this.length--;
     return oldHead;
   }
+  /*
+    Unshifting pseudocode 
+    +++++++++++++++++++++++
+    .Create a new node with the value passed to the function
+    .If the length is 0 
+        .Set the head to be the new node
+        .Set the tail to be the new node
+    .Otherwise
+        .Set the prev property on the head of the list ot be the new node
+        .Set the next property on the new node to be the head property
+        .Update the head to be the new node
+    .Increment the length 
+    .return the list
+  */
+  unshift(val) {
+    let newNode = new Node(val);
+    if (this.length === 0) {
+      this.head = newNode;
+      this.tail = newNode;
+    } else {
+      this.head.prev = newNode;
+      newNode.next = this.head;
+      this.head = newNode;
+    }
+    this.length++;
+    return this;
+  }
 }
 
 let list = new DoublyLinkedList();
@@ -113,4 +140,5 @@ list.push(102);
 list.push('LAST ITEM');
 list.pop();
 list.shift();
+list.unshift('Hello');
 console.log(list);
