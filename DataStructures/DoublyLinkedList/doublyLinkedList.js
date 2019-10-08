@@ -130,6 +130,38 @@ class DoublyLinkedList {
     this.length++;
     return this;
   }
+  /*
+    Get pseudocode
+    +++++++++++++++++++++++
+    .If the index is less than 0 or greater or equal to the length, return null
+    .If the index is less than or equal to half the length of the list
+        .Loop through the list starting from the head and loop towards the middle
+        .Return the node once it is found
+    .If the index is greater than half the length of the list
+        .Loop through the list starting from the tail and loop towards the middle
+        .Return the node once it is found 
+  */
+  get(index) {
+    if (index < 0 || index >= this.length) return null;
+    let count;
+    let current;
+    if (index <= this.length / 2) {
+      count = 0;
+      current = this.head;
+      while (count !== index) {
+        current = current.next;
+        count++;
+      }
+    } else {
+      count = this.length - 1;
+      current = this.tail;
+      while (count !== index) {
+        current = current.prev;
+        count--;
+      }
+    }
+    return current;
+  }
 }
 
 let list = new DoublyLinkedList();
@@ -138,7 +170,4 @@ list.push(100);
 list.push(101);
 list.push(102);
 list.push('LAST ITEM');
-list.pop();
-list.shift();
-list.unshift('Hello');
-console.log(list);
+console.log(list.get(1));
