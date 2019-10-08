@@ -162,6 +162,22 @@ class DoublyLinkedList {
     }
     return current;
   }
+  /*
+    Set pseudocode
+    +++++++++++++++++++++++
+    .Create a variable which is the result of the get method at the index passed to the function
+        .If the get method returns a valid node, set the value of that node to be the value passed to the function
+        .Return true
+    .Otherwise, return false
+  */
+  set(index, val) {
+    let foundNode = this.get(index);
+    if (foundNode !== null) {
+      foundNode.val = val;
+      return true;
+    }
+    return false;
+  }
 }
 
 let list = new DoublyLinkedList();
@@ -170,4 +186,4 @@ list.push(100);
 list.push(101);
 list.push(102);
 list.push('LAST ITEM');
-console.log(list.get(1));
+console.log(list);
