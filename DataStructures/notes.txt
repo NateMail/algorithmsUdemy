@@ -19,7 +19,7 @@ Different data structures excel at different things. Some are highly specialized
 Data Structure       |      Insertion       |          Removal        |         Searching     |     Access     | 
 Singly Linked List   |       O(1)           |      O(1) or O(N)       |          O(N)         |      O(N)      |
 Doubly Linked List   |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
-                     |                      |                         |                       |                |
-                     |                      |                         |                       |                |
+Stack                |                      |                         |                       |                |
+Queues               |                      |                         |                       |                |
                      |                      |                         |                       |                |
                      |                      |                         |                       |                |

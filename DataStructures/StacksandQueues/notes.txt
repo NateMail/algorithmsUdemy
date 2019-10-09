@@ -1,5 +1,5 @@
             What is a stack?
-It is a collection of data. That follows a LIFO data structure. The last element added to the stack will be the first element removed from the stack 
+It is a collection of data. That follows a LIFO (Last In First Out) data structure. The last element added to the stack will be the first element removed from the stack 
 
 
             How is it used?
