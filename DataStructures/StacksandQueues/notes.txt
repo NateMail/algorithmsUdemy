@@ -1,0 +1,12 @@
+            What is a stack?
+It is a collection of data. That follows a LIFO data structure. The last element added to the stack will be the first element removed from the stack 
+
+
+            How is it used?
+Think of it like a stack of plates. 
+As you pile it up the last thing (or the topmost thing) is what gets removed first. 
+
+            Where stacks are used? 
+. Managing funciton invocations
+. Undo / Redo 
+. Routing (the history object) is treated like a stack 
