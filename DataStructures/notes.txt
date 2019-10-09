@@ -20,6 +20,6 @@ Data Structure       |      Insertion       |          Removal        |         
 Singly Linked List   |       O(1)           |      O(1) or O(N)       |          O(N)         |      O(N)      |
 Doubly Linked List   |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
 Stack                |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
-Queues               |                      |                         |                       |                |
+Queues               |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
                      |                      |                         |                       |                |
                      |                      |                         |                       |                |
