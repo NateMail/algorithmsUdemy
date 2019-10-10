@@ -14,12 +14,12 @@ Different data structures excel at different things. Some are highly specialized
 . Arrays contain a built in index where as Linked Lists do not 
 . The idea of a list data structure that consists of nodes is the foundation for other data structures like Stacks and Queues 
 
-
+* = Not Guarenteed 
 
 Data Structure       |      Insertion       |          Removal        |         Searching     |     Access     | 
 Singly Linked List   |       O(1)           |      O(1) or O(N)       |          O(N)         |      O(N)      |
 Doubly Linked List   |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
 Stack                |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
 Queues               |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
-Binary Search Trees  |       O(log N)       |                         |          O(log N)     |                |
+Binary Search Trees  |       O(log N) *     |                         |          O(log N) *   |                |
                      |                      |                         |                       |                |
