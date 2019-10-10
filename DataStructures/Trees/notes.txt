@@ -2,13 +2,27 @@
 .A data structure that consists of nodes in a parent/child relationship 
 .Trees are nonlinear 
 .To be a tree all routes must point down and have one entry point. 
+
             Tree Terminology
 .Root - The top node in a tree.
 .Child - A node directly connected to another node when moving away from the Root.
 .Parent - The converse notion of a child.
 .Siblings - A group of nodes with the same parent.
 .Leaf - A node with no children.
-.Edge - The connection between one node and another.  
+.Edge - The connection between one node and another.
+
+            What are trees used for?
+.HTML DOM 
+.Network Routing
+.Abstract Syntax Tree 
+.Artificial Intelligence 
+.Folders in Operating Systems 
+.Computer File System 
+
+            Kinds of trees 
+.Trees 
+.Binary Trees - Each Node can have at most two children 
+.Binary Search Trees - At most have two children per node and all nodes to the left of the parent are less than the parent and all nodes to the right of the parent are more than the parent 
 
 
     Tree Model 
