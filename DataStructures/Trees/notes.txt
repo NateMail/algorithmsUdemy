@@ -25,7 +25,8 @@
 .Binary Search Trees - At most have two children per node and all nodes to the left of the parent are less than the parent and all nodes to the right of the parent are more than the parent 
 
 
-    Tree Model 
+            Tree Model 
+         +++++++++++++++
         node1
         /   \
     node2   node3
@@ -34,4 +35,11 @@
 node4 |
     node5
 
+        Binary Tree & Binary Search Tree Model
+        +++++++++++++++++++++++++++++++++++++++
+            6
+          /   \
+        4      7
+       / \    /  \
+     3    5  2    9
 
