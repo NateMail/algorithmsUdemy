@@ -1,0 +1,23 @@
+            What is a Tree?
+.A data structure that consists of nodes in a parent/child relationship 
+.Trees are nonlinear 
+.To be a tree all routes must point down and have one entry point. 
+            Tree Terminology
+.Root - The top node in a tree.
+.Child - A node directly connected to another node when moving away from the Root.
+.Parent - The converse notion of a child.
+.Siblings - A group of nodes with the same parent.
+.Leaf - A node with no children.
+.Edge - The connection between one node and another.  
+
+
+    Tree Model 
+        node1
+        /   \
+    node2   node3
+    / | \
+   /  |  node6
+node4 |
+    node5
+
+
