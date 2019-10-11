@@ -78,3 +78,7 @@ The way it searches [10, 6, 3, 8, 15, 20]
   /   \      \
 3       8     20
 The way it searches [3, 8, 6, 20, 15, 10]
+
+When to use Breadth First Search and Depth First Search 
+. In a wider tree a depth first search would use less space 
+. On a branch with single children it would be better to use breadth first 
