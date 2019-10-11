@@ -42,4 +42,39 @@ node4 |
         4      7
        / \    /  \
      3    5  2    9
-
+++++++++++++++++++++++++++++++
+Approaches to Traversing a Tree
+++++++++++++++++++++++++++++++++
+.Breadth-first Search - Work your way across
+        10
+      /    \
+    6      15
+  /   \      \
+3       8     20
+The way it searches [10, 6, 15, 3, 8, 20]
+++++++++++++++++++++++++++++++++++++++++++
+.Depth-first Search (InOrder, PreOrder, PostOrder)
++++++++++++++++++++++++
+  InOrder 
+       10
+    /    \
+    6      15
+  /   \      \
+3       8     20
+The way it searches [3, 6, 8, 10, 15, 20]
++++++++++++++++++++++++++++++++++++++++++
+  PreOrder 
+       10
+      /   \
+    6      15
+  /   \      \
+3       8     20
+The way it searches [10, 6, 3, 8, 15, 20]
++++++++++++++++++++++++++++++++++++++++++
+  PostOrder
+       10
+      /   \
+    6      15
+  /   \      \
+3       8     20
+The way it searches [3, 8, 6, 20, 15, 10]
