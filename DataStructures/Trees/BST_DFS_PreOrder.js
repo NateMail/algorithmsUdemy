@@ -115,4 +115,5 @@ tree.insert(15);
 tree.insert(3);
 tree.insert(8);
 tree.insert(20);
+// should return [10, 6, 3, 8, 15, 20]
 console.log(tree.DFSPreOrder());
