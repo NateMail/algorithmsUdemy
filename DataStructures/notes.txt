@@ -22,4 +22,4 @@ Doubly Linked List   |       O(1)           |          O(1)           |         
 Stack                |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
 Queues               |       O(1)           |          O(1)           |          O(N)         |      O(N)      |
 Binary Search Trees  |       O(log N) *     |                         |          O(log N) *   |                |
-                     |                      |                         |                       |                |
+Binary Heaps         |       O(log N)       |          O(log N)       |          O(N)         |                |
