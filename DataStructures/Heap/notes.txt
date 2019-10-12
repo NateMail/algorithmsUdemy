@@ -1,0 +1,17 @@
+        Objectives 
+.Define what a binary heap is
+.Compare and contrast min and max heaps 
+.Implement basic methods on heaps 
+.Understanding where heaps are used in the real world and what other data structures can be constructed from heaps 
+
+
+        What is a binary heap?
+. Very similar to a binary search tree, but with some different rules!
+.In a MaxBinaryHeap, parent nodes are always larger than child nodes. 
+.In a MinBinaryHeap, parent nodes are always smaller than the child nodes.
+
+        Max Binary Heap 
+.Each parent has at most two child nodes 
+.The value of each parent node is always greater than its child (opposite of min binary search tree)
+.In a max Binary Heap the parent is greater than the children, but there are no guarantees between sibling nodes. 
+.A binary heap is as compact as possible. All the children of each node are as full as they can be and left children are filled out first 
