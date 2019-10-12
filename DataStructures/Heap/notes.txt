@@ -15,3 +15,7 @@
 .The value of each parent node is always greater than its child (opposite of min binary search tree)
 .In a max Binary Heap the parent is greater than the children, but there are no guarantees between sibling nodes. 
 .A binary heap is as compact as possible. All the children of each node are as full as they can be and left children are filled out first 
+
+        What is a priority Queue?
+.A data structure where each element has a priority.
+.Elments with higher priorities are served before elements with lower priorities. 
