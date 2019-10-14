@@ -12,4 +12,4 @@ function hash(key, arrayLen) {
   }
   return total;
 }
-console.log(hash('pink', 10));
+console.log(hash('pink', 13));

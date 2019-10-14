@@ -13,3 +13,11 @@
 .Doesn't cluster outputs at specific indices, but distributes uniformly 
 .Deterministic (same input yields same output)
 
+        How to deal with collisions 
+.Even with a large array and a great hash function, collisions are inevitable.
+1.Seperate Chaining 
+  .With separate chaning, at each index in our array we store values using a more sophisticated data structure(e.g. an array or a linked list).
+  .This allows us to store multiple key-value pairs at the same index.
+2.Linear Probing 
+  .With linear probing, when we find a collision, we search through the array to find the next empty slot.
+  .Unlike with separate chaining, this allows us to store a single key-value at each index. 
