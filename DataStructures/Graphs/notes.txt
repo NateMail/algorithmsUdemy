@@ -8,5 +8,36 @@
 .Visual Hierarchy 
 .File System Opimizations 
 
+        Essential Graph Terms 
+.Vertex - a node
+.Edge - connection between nodes 
+.Weighted/Unweighted - values assigned to distances between vertices 
+.Directed/Undirected - directions assigned to distanced between vertices 
 
-    
+        Directed Graph 
+            -> A        
+          /
+        B -> E  <- D
+        |          ^
+         -> C      |
+                   F
+
+        Weighted Graph 
+            (10 A to E)
+            A ---- E
+(8 A to B) / 
+          / (17 B to F)
+          B ----- F 
+(15 B to C)\      |      
+            \     | (7 F to D)
+             C -- D
+            (20 C to D)
+
+        Undirected Graph 
+                A
+             /     \
+            B       E 
+            |\     /|
+            C \   / F
+             \ \ / /
+                D
