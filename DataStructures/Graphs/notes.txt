@@ -85,3 +85,12 @@ Remove Vertex|  O(|V| + |E|)  |      O(|V^2|)    |
 Remove Edge  |     O(|E|)     |      O(1)        | 
 Query        |  O(|V| + |E|)  |      O(1)        |
 Storage      |  O(|V| + |E|)  |      O(|V^2|)    |
+
+        Graph Traversal Uses 
+.Peer to peer networking 
+.Web crawlers
+.Finding "closest" matches/recommendations
+.Shortest path Problems
+  .GPS Navigation
+  .Solving mazes
+  .AI(shortest path to win the game)
