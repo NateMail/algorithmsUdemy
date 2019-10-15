@@ -4,7 +4,7 @@ class Graph {
     this.adjacencyList = {};
   }
   /*
-    Add Vertex Psuedocode 
+    Add Vertex Pseudocode 
     +++++++++++++++++++++++
     .Write a method called addVertex, which accepts a name of a vertex 
     .It should add a key to the adjacency list with the name of the vertex and set its value to be an empty array 
@@ -14,7 +14,7 @@ class Graph {
   }
 
   /*
-    Add an Edge Psuedocode
+    Add an Edge Pseudocode
     +++++++++++++++++++++++
     .This function should accept two vertices, we can call them v1, v2
     .The function should find in the adjacency list the key of vertex1 and push vertex2 to the array
@@ -26,7 +26,7 @@ class Graph {
     this.adjacencyList[v2].push(v1);
   }
   /*
-    Removing an Edge Psuedocode
+    Removing an Edge Pseudocode
     +++++++++++++++++++++++
     .This function should accept two vertices, we'll call them v1 and v2
     .The function should reassign the key of v1 to be an array that does not contain v2
@@ -41,7 +41,7 @@ class Graph {
     this.adjacencyList[v2] = this.adjacencyList[v2].filter(v => v !== v1);
   }
   /*
-    Removing a Vertex Psuedocode
+    Removing a Vertex Pseudocode
     +++++++++++++++++++++++
     .The funciton should accept a vertex to remove
     .The function should loop as long as there are any other vertices in the adjacency list for that vertex
