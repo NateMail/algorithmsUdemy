@@ -1,0 +1,12 @@
+        What is a Graph Data Structure?
+.A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of orered pairs for a directed graph. 
+
+        Use for Graphs 
+.Social Networks
+.Location / Mapping
+.Routing Algorithms
+.Visual Hierarchy 
+.File System Opimizations 
+
+
+    
